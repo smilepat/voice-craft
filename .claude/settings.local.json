@@ -4,7 +4,9 @@
       "Bash(git config:*)",
       "Bash(gh auth status:*)",
       "Bash(gh repo create:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ]
   }
 }
