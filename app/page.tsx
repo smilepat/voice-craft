@@ -1,6 +1,7 @@
 
 import { VoiceCanvas } from "@/components/features/VoiceCanvas";
 import { MakeMeWorkshop } from "@/components/features/Workshop";
+import { FutureLeader } from "@/components/features/FutureLeader";
 import { GlobalEcho } from "@/components/features/GlobalEcho";
 import { Roadmap } from "@/components/features/Roadmap";
 
@@ -20,6 +21,10 @@ export default function Home() {
 
       <div className="w-full max-w-4xl border-t border-slate-200 my-12 pt-12">
         <MakeMeWorkshop />
+      </div>
+
+      <div className="w-full max-w-4xl border-t border-slate-200 my-12 pt-12">
+        <FutureLeader />
       </div>
 
       <div className="w-full max-w-6xl border-t border-slate-200 my-12 pt-12">
